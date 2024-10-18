@@ -230,7 +230,7 @@ print(df_missing_merged_2.shape)
     (393830, 11)
 
 
-Now in order to have a clear idea about why these location data is missing, we can plot these on a map of the US and see where they lie. One of the key aspects of data cleaning is to **reach out to the surce of the data in case a lot of data is missing in one or many of the columns** in order to clearly understand if there is a potential reason for it. 
+Now in order to have a clear idea about why these location data is missing, we can plot these on a map of the US and see where they lie. One of the key aspects of data cleaning is to **reach out to the source of the data in case a lot of data is missing in one or many of the columns** in order to clearly understand if there is a potential reason for it. 
 
 This is what we are trying to identify here. Whether we want to review our data source or reach out to the data collection authority/agency/individual to clarify. 
 
@@ -255,14 +255,7 @@ fig.show(renderer='iframe') #Use the rendered parameter in case the map doesn't 
 ```
 
 
-<iframe
-    scrolling="no"
-    width="100%"
-    height="545px"
-    src="iframe_figures/figure_8.html"
-    frameborder="0"
-    allowfullscreen
-></iframe>
+![png](map.png)
 
 
 
@@ -982,14 +975,7 @@ fig.show(renderer='iframe') #Use the rendered parameter in case the map doesn't 
 ```
 
 
-<iframe
-    scrolling="no"
-    width="100%"
-    height="545px"
-    src="iframe_figures/figure_24.html"
-    frameborder="0"
-    allowfullscreen
-></iframe>
+![png](map2.png)
 
 
 
